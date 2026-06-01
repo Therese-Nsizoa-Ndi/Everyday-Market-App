@@ -31,7 +31,7 @@ jobs:
           app_location: "/"
           api_location: ""
           output_location: "dist/EverydayMarketApp/browser/products"
-          app_build_command: "npm run build && rm -f dist/EverydayMarketApp/browser/products/staticwebapp.config.json"
+          skip_app_build: true
           
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
