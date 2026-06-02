@@ -30,7 +30,7 @@ jobs:
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
           app_location: "/"
           api_location: ""
-          output_location: "dist/EverydayMarketApp/browser/products"
+          output_location: "dist/EverydayMarketApp/browser"
           app_build_command: "npm run build"
           
   close_pull_request_job:
